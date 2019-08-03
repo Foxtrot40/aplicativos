@@ -1,0 +1,31 @@
+Como rodar o aplicativo:
+
+clone o repo
+entre na pasta
+rode yarn i/npm i e espere o processo terminar
+abra um emulador
+Android Studio:
+  basta rodar react-native run-android no terminal
+Genymotion (é mais rápido):
+  rodar react-native run-android no terminal
+  no aplicativo abra as configurações de dev (ctrl/command + m)
+  entre em dev settings e va em Debug server host & port for device
+  insira o ip do seu computador com a porta 8081 (192.168.0.1:8081)
+  clique ok, depois saia de dev settings e recarregue o aplicativo
+
+
+Primeiros passos:
+  Analisar o squetch do aplicativo, reconhecer os componentes, quais são as telas, ter uma ideia 
+  inicial de quais pacotes serão necessários para atender as demandas do desafio
+
+  criar o aplicativo básico com react-native init NOME
+  criar pastas src -> compoentes/screens/utils
+  Components:
+    por que?
+  Screens:
+    por que?
+  Utils:
+    por que?
+  
+  
+
